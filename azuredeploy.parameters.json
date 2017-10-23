@@ -12,10 +12,10 @@
 			"value": "Standard_DS2_v2"
 		},
 		"nodeVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_D4_v3"
 		},
 		"openshiftClusterPrefix": {
-			"value": "changeme"
+			"value": "sit-oso"
 		},
 		"masterInstanceCount": {
 			"value": 3
@@ -24,22 +24,22 @@
 			"value": 2
 		},
 		"nodeInstanceCount": {
-			"value": 1
+			"value": 4
 		},
 		"dataDiskSize": {
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "osoadm"
 		},
 		"openshiftPassword": {
 			"value": "changeme"
 		},
 		"sshPublicKey": {
-			"value": "changeme"
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAEAQC6WrYiW1ZxoW1yk8LHzU0UB7CVQvfU6uhhACsdaS/ypWuSFrxLqPBQSYXEYq6KM2X7+Au1A4FsAOTwjoxvZw9yU+CJ1g0mnACnV9aqdSGnEkLQYih21ZoPNQBycVBgTeJ8naCxpZsWjZ+DdbPSSY9hD/l8nqFWl44SFWyy4BtbuvSldYbXKgVxYk1gut2Fm16lDO2mSI6vEGdNrbKqXEWKxhSdLXA3uFruygndUBtx7I2mtdRco3knc95Mto3jOsOaGKkN7DEL8Ln+GIIhnFaXqZcfOsdA8kn9gGKreaaTT7NJoE4tgP9dtqsf1gpf/v5UflgmNxK95WGVyIDgoUfIxOH62332VJkxKYBBctP0jZ+qGR1PpTMzH4Upi2jM9LkLD8dI5tw2/4W8BEVBK7Cj+t5HFUc9lAGBrz2Jffu4Wjw4u+Pi4SsFFNzSh05WCicVW9Lz4YkZS4krcwEgtEoc3kLzWDgchobAXlwyxphWwexvKTBY+4AJJ13We6djCWkw6ptpaW/jDZFit9cgjCiDaoVFlb03Giky0dVp8IyKRC4PM0xVJ5X8/3pfRdxsvlotN8JQmvliLf3poFwArsUAJIYhJzYsLk8BLn7wKPoj7tdtwfzwdtfYz+aQLS5tVsM82pCpfew/F/Lh7ekFPTI50TpCGo/6uAy0SRgBZ/+LV+JhbWdASDMa4K48syGAn65+8nuTZj8RNLtV9kTSyDIHSj2cNF7p0aDHdVw2VOSNCjllT4gTjrGui9bmCPytMW03AEJvE5bd99gY70rNJdixT2o0sFOdgGO59cM58Ny83Qpwr8uWs0Jy/THteSy81USCiQa1yRXo5i/HwzJQ0tipa4PKDBbsR6VrCn1J7tRyYF81SnBQJ5hLO13er+zVVKTgrMsL2LbJNgivwLyFYO5mxociHdb6/Gbyb3zvA+Nk0fnwykdj3x3RWIMKddDrAN0CeB2ePJHh99E1EAkhh8KLpk/j+3J+wb+l3y2x3j/SL+rpKSNr/xd52YE12WXx3AuBgu6jEvsb5UpdIxuEtdELolQt5+tDmasA2AsyzM+RwupoVX5ow1Ph7PizxAsck1RxYKeQ+9dbKktbJuFY9p5MW/jL8DLN95ux3lNI/BovHddXoPBMlxnntleLb1XLdoJdoa5I/6GISeQ2AiyoI0yLVPrlBV0OuUj7CfaXpfvp/s3lftzgPqcNxRvy87A1LQLoIm/f019wogfNvNwX5RbynhrDyMqpBhQmNWrxEFHm4dgDJnzO+e1Jq163kmuofvcXF+JN9WC7uINSR4+VF8hGlCNUOJyp4jjW2DBnamtxorOv1T+/IpiRZAv2FkMz5lLtQbxhqOtd6a6++4y8vIRz"
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "sit-oso-keyvault"
 		},
 		"keyVaultName": {
 			"value": "changeme"
@@ -48,7 +48,7 @@
 			"value": "changeme"
 		},
 		"aadClientId": {
-			"value": "changeme"
+			"value": ""
 		},
 		"aadClientSecret": {
 			"value": "changeme"
