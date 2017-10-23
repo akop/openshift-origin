@@ -15,7 +15,7 @@
 			"value": "Standard_D4_v3"
 		},
 		"openshiftClusterPrefix": {
-			"value": "sit-oso"
+			"value": "sit-oso-ext"
 		},
 		"masterInstanceCount": {
 			"value": 3
@@ -30,7 +30,7 @@
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "osoadm"
+			"value": "osoext_adm"
 		},
 		"openshiftPassword": {
 			"value": "changeme"
@@ -42,10 +42,10 @@
 			"value": "sit-oso-keyvault"
 		},
 		"keyVaultName": {
-			"value": "changeme"
+			"value": "sit-oso-ext"
 		},
 		"keyVaultSecret": {
-			"value": "changeme"
+			"value": ""
 		},
 		"aadClientId": {
 			"value": ""
