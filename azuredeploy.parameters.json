@@ -3,13 +3,13 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/MaddSauer/openshift-origin/master/"
+			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master/"
 		},
 		"masterVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_D4_v3"
 		},
 		"infraVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_D4_v3"
 		},
 		"nodeVmSize": {
 			"value": "Standard_D4_v3"
@@ -45,10 +45,10 @@
 			"value": "sit-oso-ext"
 		},
 		"keyVaultSecret": {
-			"value": ""
+			"value": "changeme"
 		},
 		"aadClientId": {
-			"value": ""
+			"value": "changeme"
 		},
 		"aadClientSecret": {
 			"value": "changeme"
