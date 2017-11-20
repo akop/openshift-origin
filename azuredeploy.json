@@ -222,8 +222,8 @@
 		"virtualNetworkName": "openshiftvnet",
 		"masterSubnetName": "mastersubnet",
 		"nodeSubnetName": "nodesubnet",
-		"infraLbPublicIpDnsLabel": "[concat(variables('namingInfix'),'-infradns')]",
-		"openshiftMasterPublicIpDnsLabel": "[concat(variables('namingInfix'),'-masterdns')]",
+		"infraLbPublicIpDnsLabel": "[concat(variables('namingInfix'),'-infra')]",
+		"openshiftMasterPublicIpDnsLabel": "[concat(variables('namingInfix'),'-master')]",
 		"persistentVolume1Type": "Standard_LRS",
 
 		"masterLoadBalancerName": "[concat(variables('openshiftMasterHostname'), 'lb')]",
